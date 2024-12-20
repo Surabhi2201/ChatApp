@@ -1,0 +1,111 @@
+.ls{
+    background-color: rgb(46, 96, 98);
+    color:beige;
+    height:85vh;
+   width:300px
+}
+
+.ls-top{
+    padding:20px;
+}
+
+.ls-nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ls-nav .logo{
+    height:40px;
+}
+
+.ls-nav .menu img{
+    height:40px;
+    width:40px;
+}
+
+.ls-search img{
+    height:20px;
+    width:20px
+}
+
+.ls-search{
+    padding:10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: rgb(21, 45, 45);
+    margin:5px;
+    gap:5px;
+    border-radius:5px;
+}
+
+.ls-search input{
+    width:300px;
+    height:40px;
+    padding:5px;
+    
+}
+
+.ls-list{
+    display:flex;
+    flex-direction: column;
+    
+    height:400px;
+    overflow-y: scroll;
+}
+
+.friends img{
+    height:45px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.friends{
+   display: flex;
+   align-items: center;
+   justify-content:start;
+   padding:5px;
+   gap:15px;
+   cursor: pointer;
+}
+
+.friends:hover{
+    background-color: rgb(7, 38, 68);
+    border-radius: 3px;
+}
+.friends p{
+    font-weight: bolder;
+    color: white 
+}
+
+.friends span{
+    color:azure
+}
+
+.ls-menu{
+    position:relative;
+    padding:0 10px;
+
+}
+
+.menu .sub-menu{
+    position:absolute;
+    background-color:rgb(30, 49, 30);
+    width:130px;
+    padding:20px;
+
+}
+
+.menu .sub-menu{
+    display: none;
+}
+.sub-menu p{
+    cursor:pointer;
+    padding:5px
+}
+.menu:hover .sub-menu{
+    display:block;
+    z-index:10;
+}

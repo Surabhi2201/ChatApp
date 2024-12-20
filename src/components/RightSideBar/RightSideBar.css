@@ -1,0 +1,51 @@
+.rs{
+    height:85vh;
+    overflow-y: scroll;
+    color:white;
+    background-color: rgb(46,96,98);
+   width:250px;
+}
+
+.rs-profile{
+    padding:40px;
+    text-align:center;
+    
+
+}
+
+.rs-profile img{
+    border-radius: 50%;
+    
+    width:150px;
+    aspect-ratio: 1/1;
+}
+.rs-media{
+    padding:10px;
+}
+
+.rs-media div{
+    max-height:180px;
+    overflow-y: scroll;
+}
+
+.rs-media img{
+    height:60px;
+    width:70px;
+    cursor:pointer;
+}
+  
+.rs button{
+    position: absolute;
+    bottom: 70px;
+    height:40px;
+    width:220px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5%;
+    border:none;
+    background-color: rgb(1, 16, 16);
+    color: white;
+    font-size: larger;
+    cursor:pointer;
+}
